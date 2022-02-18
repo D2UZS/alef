@@ -3,19 +3,23 @@
 	--white-color: #fff;
 	--accent-color: #01A7FD;
 	--gray-color: rgba(17, 17, 17, 0.48);
+	--gray-m-color: #FAFAFA;
+	--gray-dark-color: rgba(17, 17, 17, 0.7);
 
 	--transition-1: all 0.1s ease-in;
 	--transition-2: all 0.2s ease-in;
+
+	--active-opacity: .7;
 
 	--rhythm-1: 8px;
 	--rhythm-2: 16px;
 	--rhythm-3: 24px;
 
-	--safe-padding: 32px;
+	--safe-padding: 51px;
 
 	@include _767 {
 		--safe-padding: 16px;
 	}
 
-	--max-width-container: calc(1366px + (var(--safe-padding) * 2));
+	--max-width-container: calc(1264px + (var(--safe-padding) * 2));
 }

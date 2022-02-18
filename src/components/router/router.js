@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import MainPage from '@/components/pages/MainPage'
-import ProductPage from '@/components/pages/ProductPage'
+import FormPage from '@/components/pages/FormPage'
+import PreviewPage from '@/components/pages/PreviewPage'
 
 const routes = [
   {
     path: '/',
-    component: MainPage,
+    component: FormPage,
   },
   {
-    path: '/product/:id',
-    component: ProductPage,
-  },
+    path: '/preview',
+    component: PreviewPage,
+  }
 ]
 
 const router = createRouter({
