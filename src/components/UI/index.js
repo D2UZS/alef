@@ -1,6 +1,4 @@
-import AppLogo from '@/components/UI/AppLogo'
+import AppLogo from "@/components/UI/AppLogo";
+import AppInput from "@/components/UI/AppInput";
 
-
-export default [
-  AppLogo,
-]
+export default [AppLogo, AppInput];

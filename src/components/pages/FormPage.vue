@@ -1,16 +1,20 @@
 <template>
   <div class="form-page">
     <app-container class="form-page__container">
-      <h1>form-page</h1>
+      <personal-data class="form-page__personal-data">
+        <ProfileForm />
+      </personal-data>
     </app-container>
   </div>
 </template>
 
 <script>
 import AppContainer from "@/components/AppContainer";
+import PersonalData from "@/components/PersonalData";
+import ProfileForm from "@/components/ProfileForm";
 
 export default {
-  components: { AppContainer },
+  components: { AppContainer, PersonalData, ProfileForm },
 };
 </script>
 
